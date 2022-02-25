@@ -1,5 +1,20 @@
 h1 {
-    margin-bottom: 0;
-    background-color: blue;
-    color: grey;
+    color: blue;
+    font-size: 3rem;
+}
+.one {
+font-size: 2rem;
+}
+#two {
+    font-size: larger;
+    display: inline-block;
+    background-color: darkslategray;
+}
+#three {
+    background-color: #0a6a44;
+}
+@media screen and (max-width: 850px) {
+    #two {
+        background-color: crimson;
+    }
 }
